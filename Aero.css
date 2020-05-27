@@ -1,0 +1,418 @@
+
+/*---------------------MENU------------------------*/
+
+ #menu {
+	background-color:#343a40;
+	height:65px;
+	padding:0;
+	font-weight:bold;
+	margin:0;
+ }
+#menu ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+ }
+#menu li {
+	float:left;
+	color:white;
+	padding:0.6%;
+	margin:0;
+ }
+#menu li a {
+	display:block;
+	width:100%;
+	color:white;
+	text-decoration:none;
+	margin:0;
+ }
+ #menu ul li ul {
+	display:none;
+ }
+ #menu li ul {
+	position:absolute;
+ }
+
+ #menu ul li:hover ul {
+	display:block;
+	margin:0;
+	padding:1%;
+
+ }
+#menu li:hover ul li {
+	float:none;
+	
+ }
+#menu li a:hover {
+	color: rgba(135, 206, 250, 1);
+ }
+ #lien{
+	 background-color:black;
+	 color:black;
+
+ }
+
+ /*------------------------------------------------------*/
+
+
+html, body {
+	height: 100%;
+	margin: 0; 
+	padding: 0;
+}
+
+body {
+	margin:0px;
+	background-color: black;
+	text-align:center;
+	background-image:url(img/fond.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Segoe UI";
+    font-size: 1rem;
+	
+}
+ul{
+	padding-inline-start:0;
+	text-decoration:none;
+	list-style: none;
+}
+div{
+	margin:2%;
+}
+input{
+	background-color:white;
+	border-radius:30px;
+}
+.titre{
+	color:white;
+	padding: 2%;
+	margin:0;
+}
+
+.sousTitre{
+	padding: 2%;
+	margin:0;
+}
+.separation{
+	background-color:black;
+	width:100%;
+	margin:0;
+}
+#rouge{
+	color:red;
+}
+#acceuil{
+	color:black;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius:30px;
+	padding: 3%;
+	border: solid black 1px;
+}
+#acceuil:hover{
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 8px black;
+}
+
+#logo {
+	background-color: white;
+	border-radius:50%;
+	position: center;
+}
+
+#environnement {
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+#environnement img{
+	width:75%;
+	border-radius:10px;
+}
+#histoire {
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+#histoire img{
+	width:100%;
+	border-radius:10px;
+}
+#equipe {
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+#equipe img{
+	width:100%;
+	border-radius:10px;
+}
+#equipe a{
+	color:steelblue;
+	text-decoration:none;
+}
+#equipe a:hover{
+	font-weight:bold;
+}
+
+#flotte{
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+#flotte h3{
+	color:steelblue;
+}
+#flotte img{
+	width:100%;
+	border-radius:10px;
+}
+#piloteUnJour{
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 3%;
+	border: solid black 1px;
+}
+#piloteUnJour img{
+	width:100%;
+	border-radius:10px;
+}
+#piloteUnJour h4{
+	color:steelblue;
+}
+
+#brevetPilote {
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+.condition{
+	background-color: rgba(255, 255, 255, 0.9);
+	color:black;
+	padding: 2%;
+	border: solid black 1px;
+	border-radius:30px;
+}
+.condition h3{
+	color:steelblue;;
+}
+
+#presentation {
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+#presentation img{
+	width:100%;
+	border-radius:10px;
+	
+}
+
+#photos {
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+#portes_ouvertes{
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+#portes_ouvertes img{
+	width:75%;
+	border-radius:10px;
+	margin:2%;
+}
+
+#contact{
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius:30px;
+	color:black;
+	padding: 2%;
+	border: solid black 1px;
+}
+#contact img{
+	border-radius:30px;
+	width:60%;
+}
+
+#formulaire{
+	background-color:rgba(52, 58, 64, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+	
+#horaires{
+	background-color: rgba(0, 0, 0, 0.9);
+	border-radius:30px;
+	color:white;
+	padding: 2%;
+	border: solid black 1px;
+}
+
+#im{
+	border-radius:20px;
+	padding: 1%;
+	margin:0;
+	width:65%;
+}
+
+#tapealeoeil{
+	font-weight: 500;
+	padding: 1%;
+	font-size: 120%;
+	margin:0;
+	
+}
+#scroll_to_top { 
+	position: fixed; 
+	width: 25px; 
+	height: 25px; 
+	bottom: 50px; 
+	right: 30px; 
+	
+} 
+
+#scroll_to_top img { 
+	width: 100%; 
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius:50%;
+	position: center;
+	border: solid black 1px;
+}
+#scroll_to_top img:hover{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+#barre{
+	background-color:black;
+	bottom: 0;
+	margin:0;
+	width: 100%;
+	color:white;
+	padding:0;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align: center;
+	list-style:none;
+}
+#barre ul{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style: none;
+}
+#barre a{
+	text-decoration:none;
+	color:white;
+	list-style: none;
+}
+#barre a:hover{
+	color: rgba(135, 206, 250, 1);
+}
+.bloc{
+	height:auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius:30px;
+	color:black;
+	border: solid black 1px;
+	float: left;
+	text-align: center;
+	width:42%;
+	margin:0;
+	margin-left:4%;
+	padding:1%;
+	list-style: none;
+}
+.bloc ul li{
+	margin:0;
+	padding:0;
+	list-style: none;
+	padding-inline-start:0;
+}
+.bloc img{
+	width:65%;
+	border-radius:30px;
+	border: solid black 1px;
+	
+}
+.bloc h3{
+	padding:0;
+	margin:2%;
+}
+.bloc p{
+	margin: 0;
+	padding:2%;
+}
+
+.bloc a{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+	padding:1%;
+}
+.bloc a:hover{
+	color: rgba(135, 206, 250, 1);
+}
+.bloc:hover{
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 8px black;
+}
+.aligne::after{
+	content: "";
+	clear: both;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+.tarif_av{
+	color:steelblue;
+	font-weight: bold;
+}
+
+/* STYLE SAISIE */
+.typewriter{
+	color: Black;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	/*border-right: .15em solid black;  The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	animation: 
+    typing 2.5s steps(30, end),
+    blink-caret .5s step-end ;
+	width:100%
+}
+
+/* The typing effect */
+@keyframes typing {
+	from { width: 0 }
+	to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	30% { border-color: black }
+}
